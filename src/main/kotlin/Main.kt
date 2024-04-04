@@ -1,4 +1,5 @@
 import classes.Introduction
+import coroutines.CoroutinesExample
 import dataclasses.Person
 import functiontypes.FunctionTypesExample.sum
 import functiontypes.FunctionTypesExample.higherOrderFunction
@@ -29,6 +30,7 @@ fun main(args: Array<String>) {
     ForLoopExample.forLoop()
     println("Map Iterating")
     MapExample.mapIterate()
+    CoroutinesExample().main()
 }
 
 fun Introduction.compareWithExtension(str: String): String {
