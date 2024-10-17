@@ -25,3 +25,7 @@ class CoroutinesExample {
         }
     }
 }
+
+fun main() {
+    CoroutinesExample().main()
+}

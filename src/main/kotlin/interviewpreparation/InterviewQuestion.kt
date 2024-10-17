@@ -13,7 +13,7 @@ fun main() {
     )
     println(intervals)
     val mergedIntervals = mergeCells(intervals)
-//    println(mergedIntervals)
+    println(mergedIntervals)
 }
 
 fun mergeCells(intervals: Array<IntArray>) {
